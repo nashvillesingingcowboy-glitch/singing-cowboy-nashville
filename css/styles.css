@@ -464,6 +464,11 @@ p { max-width: 65ch; }
 .faq details[open] summary::after { content: "–"; }
 .faq .faq-a { padding: 0 1.1rem 1.1rem; font-size: 0.98rem; }
 
+/* ---------- gallery ---------- */
+.gallery-grid { display: grid; gap: 1rem; margin-top: 1.6rem; }
+@media (min-width: 700px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); } }
+.gallery-grid img { border: var(--border-ink); box-shadow: var(--shadow-poster); width: 100%; height: auto; }
+
 /* ---------- social proof placeholders ---------- */
 .proof-grid { display: grid; gap: 1.2rem; margin-top: 1.6rem; }
 @media (min-width: 700px) { .proof-grid { grid-template-columns: repeat(3, 1fr); } }
