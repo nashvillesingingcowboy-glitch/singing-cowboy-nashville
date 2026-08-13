@@ -114,6 +114,7 @@
         "Email/phone: " + g("fu-contact"),
         "Guest of honor: " + g("fu-guest"),
         "Celebration date: " + g("fu-date"),
+        "T-shirt size: " + g("fu-tshirt"),
         "",
         "THE DIRT 🔥",
         "-----------",
