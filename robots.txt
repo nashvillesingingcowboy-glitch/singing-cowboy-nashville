@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nashvillesingingcowboy-glitch.github.io/singing-cowboy-nashville/sitemap.xml
