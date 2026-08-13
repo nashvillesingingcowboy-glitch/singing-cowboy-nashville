@@ -34,7 +34,7 @@ Current placeholders are branded cream/red placeholder images — clearly not re
 
 ## Booking form / email
 
-The forms compose a pre-filled email to **book@singingcowboynashville.com**
+The forms compose a pre-filled email to **nashvillesingingcowboy@gmail.com**
 (defined in `js/main.js`). To route inquiries somewhere else, change the address
 in `js/main.js` (two places: booking form + dirt follow-up form).
 

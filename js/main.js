@@ -85,7 +85,7 @@
       ];
       var body = encodeURIComponent(lines.join("\n"));
       var subject = encodeURIComponent("Booking: " + g("guest") + " — " + g("celebration"));
-      window.location.href = "mailto:book@singingcowboynashville.com?subject=" + subject + "&body=" + body;
+      window.location.href = "mailto:nashvillesingingcowboy@gmail.com?subject=" + subject + "&body=" + body;
     });
   }
 
@@ -126,7 +126,7 @@
       ];
       var body = encodeURIComponent(lines.join("\n"));
       var subject = encodeURIComponent("Private Dirt: " + g("fu-guest"));
-      window.location.href = "mailto:book@singingcowboynashville.com?subject=" + subject + "&body=" + body;
+      window.location.href = "mailto:nashvillesingingcowboy@gmail.com?subject=" + subject + "&body=" + body;
     });
   }
 
