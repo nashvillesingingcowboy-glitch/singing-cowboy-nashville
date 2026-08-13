@@ -27,7 +27,8 @@ Drop your real photos into `images/` using the **same filenames** — no layout 
 - `images/singing-cowboy-bachelorette.jpg` — bachelorette surprise (landscape ~800×600)
 - `images/singing-cowboy-birthday.jpg` — birthday surprise (landscape ~800×600)
 - `images/cowboy-live-nashville.jpg` — live performance (landscape ~800×600)
-- `images/souvenir-button.jpg` — souvenir button (square ~600×600)
+- `images/souvenir-tshirt.jpg` — souvenir T-shirt mockup (landscape ~900×720)
+- `images/souvenir-tshirt-square.jpg` — square crop for cards (600×600)
 - `images/og-default.jpg` — social share card (1200×630)
 
 Current placeholders are branded cream/red placeholder images — clearly not real photos.

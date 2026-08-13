@@ -26,14 +26,21 @@
   checkFooterCta();
   window.addEventListener("resize", checkFooterCta);
 
-  /* ---------- booking form: reveal GIVE THE COWBOY THE DIRT ---------- */
+  /* ---------- booking form: reveal GIVE THE COWBOY THE DIRT + t-shirt size ---------- */
   var packageSelect = document.getElementById("package");
   var dirtReveal = document.getElementById("dirt-reveal");
+  var tshirtField = document.getElementById("tshirt-size-field");
+  var tshirtSelect = document.getElementById("tshirt-size");
   if (packageSelect && dirtReveal) {
     function syncDirt() {
       var v = packageSelect.value || "";
       var personalized = v.indexOf("dirt") !== -1 || v.indexOf("full") !== -1 || v.indexOf("300") !== -1 || v.indexOf("250") !== -1;
       dirtReveal.classList.toggle("show", personalized);
+      if (tshirtField && tshirtSelect) {
+        var fullExperience = v.indexOf("300") !== -1 || v.indexOf("full") !== -1;
+        tshirtField.style.display = fullExperience ? "block" : "none";
+        tshirtSelect.required = fullExperience;
+      }
     }
     packageSelect.addEventListener("change", syncDirt);
     syncDirt();
@@ -59,6 +66,7 @@
         "Hotel / Airbnb / venue: " + g("location"),
         "Approx. number of guests: " + g("people"),
         "Package: " + g("package"),
+        "T-shirt size: " + g("tshirt-size"),
         "",
         "STEP 2 — CONTACT (private, for coordination only)",
         "Organizer's name: " + g("name"),
